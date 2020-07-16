@@ -364,6 +364,50 @@ $$
 
 ***
 
+#### 带分割符号的矩阵
+
+详见"[数组使用参考](https://www.zybuluo.com/codeep/note/163962#五数组与表格使用参考)"。
+
+- 例子：
+
+```latex
+$$
+\left[    
+	\begin{array}{cc|c}      
+		1&2&3\\      
+		4&5&6    
+	\end{array}
+\right]
+$$
+```
+
+$$
+\left[ 
+	\begin{array}{cc|c}      
+		1&2&3\\      
+		4&5&6    
+	\end{array}
+\right]
+$$
+
+
+
+
+***
+
+#### 行中矩阵
+
+若想在一行内显示矩阵， 
+使用 `\bigl(\begin{smallmatrix} ... \end{smallmatrix}\bigr)`。
+
+
+
+例子: 这是一个行中矩阵的示例 $\bigl( \begin{smallmatrix} a & b \\ c & d \end{smallmatrix} \bigr)$ 。显示：这是一个行中矩阵的示例 。
+
+
+
+***
+
 ## 积分 $\int$
 
 - \int_{ }^{ }
@@ -392,7 +436,7 @@ x(n),\\
 x(n-1)\\
 x(n-1)
 \end{cases}
-$$ 
+$$
 ```
 
 分段函数输出的结果如下：

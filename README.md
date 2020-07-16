@@ -14,6 +14,22 @@ markdown 的设计初衷是为了书写、阅读 简约方便，但适用的场�
 
 
 
+***
+
+本篇参考自：
+
+- https://www.zybuluo.com/codeep/note/163962
+
+- [Keaton2020](https://www.jianshu.com/u/5f550fe15c01)： [【集锦】Markdown 语法快速上手](https://www.jianshu.com/c/65c0f5f216cc)
+
+  https://www.jianshu.com/c/65c0f5f216cc
+
+- https://www.zybuluo.com/static/editor/md-help.markdown
+
+- 
+
+
+
 本页面直接展示常用操作
 
 ***
@@ -106,9 +122,57 @@ markdown 的设计初衷是为了书写、阅读 简约方便，但适用的场�
 |              |                    |                      |                     |
 |              |                    |                      |                     |
 
-##二、常见文本操作
+##常见文本操作
+
+### 标题
+
+Markdown 支持两种标题的语法，类 [Atx](https://links.jianshu.com/go?to=http%3A%2F%2Fwww.aaronsw.com%2F2002%2Fatx%2F) 和类 [Setext](https://links.jianshu.com/go?to=http%3A%2F%2Fdocutils.sourceforge.net%2Fmirror%2Fsetext.html) 形式。
+
+**类 Atx 形式是使用 `#` 数量表示标题的阶数**
+
+在行首插入 1 到 6 个 `#` ，对应到标题 1 到 6 阶，例如：
 
 
+
+```markdown
+# 这是 H1        # typora 快捷键 Ctrl + 1
+## 这是 H2       # typora 快捷键 Ctrl + 2
+### 这是 H3      # typora 快捷键 Ctrl + 3
+#### 这是 H4     # typora 快捷键 Ctrl + 4
+##### 这是 H5    # typora 快捷键 Ctrl + 5
+###### 这是 H6   # typora 快捷键 Ctrl + 6
+```
+
+
+
+**类 Setext 形式则是用底线的形式**（不常用，了解即可）
+
+利用 `=` （最高阶标题）和 `-` （第二阶标题），例如：
+
+
+
+```markdown
+This is an H1
+=============
+
+This is an H2
+-------------
+```
+
+任何数量的 `=` 和 `-` 都可以有效果。
+
+ 
+
+------
+
+
+
+
+
+作者：Keaton2020
+链接：https://www.jianshu.com/p/b2401aecc304
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 
 
