@@ -7,10 +7,10 @@ markdown 的设计初衷是为了书写、阅读 简约方便，但适用的场�
 这里做一份总结，基于 macOS 系统，typora 的引擎，其他需要测试。
 
 - [markdown 文本处理](README.md)
-- [markdown 图文音视频](markdown 图文音视频.md)
-- [markdown 图表](markdown 图表.md)
-- [markdown 数学](markdown 数学.md)
-- [LATEX Mathematical Symbols.pdf](LATEX Mathematical Symbols.pdf)
+- [markdown 图文音视频](markdown图文音视频.md)
+- [markdown 图表](markdown图表.md)
+- [markdown 数学](markdown数学.md)
+- [LATEX Mathematical Symbols.pdf](LATEXMathematicalSymbols.pdf)
 
 
 
